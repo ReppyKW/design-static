@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="180px" height="90px" viewBox="0 0 180 90" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 3.8.3 (29802) - http://www.bohemiancoding.com/sketch -->
+    <title>60-min</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="60-min">
+            <g id="Group-4" transform="translate(89.000000, 3.000000)" stroke="#4990E2" stroke-width="2" stroke-linecap="square">
+                <path d="M1.5,0.5 L1.5,3.5" id="Line"></path>
+                <path d="M1.5,81.5 L1.5,84.5" id="Line"></path>
+            </g>
+            <g id="Group-4" transform="translate(89.633975, 45.000000) rotate(-330.000000) translate(-89.633975, -45.000000) translate(89.133975, 2.500000)" stroke="#4990E2" stroke-linecap="square">
+                <path d="M0.5,0.5 L0.5,3.5" id="Line"></path>
+                <path d="M0.5,81.5 L0.5,84.5" id="Line"></path>
+            </g>
+            <g id="Group-4" transform="translate(90.000000, 44.633975) rotate(-300.000000) translate(-90.000000, -44.633975) translate(89.500000, 2.133975)" stroke="#4990E2" stroke-linecap="square">
+                <path d="M0.5,0.5 L0.5,3.5" id="Line"></path>
+                <path d="M0.5,81.5 L0.5,84.5" id="Line"></path>
+            </g>
+            <g id="Group-4" transform="translate(90.500000, 45.500000) rotate(-270.000000) translate(-90.500000, -45.500000) translate(89.000000, 3.000000)" stroke="#4990E2" stroke-width="2" stroke-linecap="square">
+                <path d="M1.5,0.5 L1.5,3.5" id="Line"></path>
+                <path d="M1.5,81.5 L1.5,84.5" id="Line"></path>
+            </g>
+            <g id="Group-4" transform="translate(91.000000, 44.633975) rotate(-240.000000) translate(-91.000000, -44.633975) translate(90.500000, 2.133975)" stroke="#4990E2" stroke-linecap="square">
+                <path d="M0.5,0.5 L0.5,3.5" id="Line"></path>
+                <path d="M0.5,81.5 L0.5,84.5" id="Line"></path>
+            </g>
+            <g id="Group-4" transform="translate(91.366025, 45.000000) rotate(-210.000000) translate(-91.366025, -45.000000) translate(90.866025, 2.500000)" stroke="#4990E2" stroke-linecap="square">
+                <path d="M0.5,0.5 L0.5,3.5" id="Line"></path>
+                <path d="M0.5,81.5 L0.5,84.5" id="Line"></path>
+            </g>
+            <circle id="Oval-8" stroke="#4990E2" stroke-width="2" cx="90.5" cy="45.5" r="42.5"></circle>
+            <g id="Group-5" transform="translate(54.500000, 9.000000)" fill="#4990E2">
+                <path d="M36.237013,72.9927072 C35.9919268,72.9975615 35.7462482,73 35.5,73 C35.5,72.9902608 35.5,72.9805205 35.5,72.9707792 C16.0250003,72.1972769 0.474025974,56.1647008 0.474025974,36.5 C0.474025974,16.8352992 16.0250003,0.802723139 35.5,0.0292207633 C35.5,0.0194791763 35.5,0.00973892148 35.5,0 C35.7462482,0 35.9919268,0.00243853445 36.237013,0.00729277247 C36.4820992,0.00243853445 36.7277778,0 36.974026,0 C36.974026,0.00973922357 36.974026,0.0194794783 36.974026,0.0292207633 C56.4490256,0.802723139 72,16.8352992 72,36.5 C72,56.1647008 56.4490256,72.1972769 36.974026,72.9707792 C36.974026,72.9805208 36.974026,72.9902611 36.974026,73 C36.7277778,73 36.4820992,72.9975615 36.237013,72.9927072 Z" id="Combined-Shape"></path>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,27 @@
+button{
+  border-radius:3px;
+  color:white;
+  background-color:$dark;
+  padding:6px 12px 7px 12px;
+  font-size:14px;
+  font-weight:600;
+  img, span{
+    display:inline-block;
+    vertical-align: middle;
+  }
+  img{
+    margin-right:5px;
+  }
+  &.major{
+    background-color:$blue;
+  }
+  &.minor{
+    background-color:$orange;
+  }
+  &.facebook{
+    background-color:#37528D;
+  }
+  &:hover{
+    cursor:pointer;
+  }
+}

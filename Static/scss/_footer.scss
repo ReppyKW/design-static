@@ -1,0 +1,26 @@
+body>footer{
+  background-color:$dark;
+  color:$semidark;
+  padding:40px $sidePadding;
+  a, a:link, a:visited{
+    margin-bottom:20px;
+    display:block;
+    color:$medium;
+    text-decoration:none;
+  }
+  img{
+    float:right;
+    width:180px;
+    height:60px;
+  }
+  .copyright{
+    display:block;
+    width:100%;
+    text-align:center;
+  }
+}
+@media screen and (max-width:920px){
+  body>footer{
+    padding:40px $smallSidePadding;
+  }
+}

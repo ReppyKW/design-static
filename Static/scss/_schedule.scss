@@ -1,0 +1,256 @@
+section.schedule{
+  max-width:1780px;
+  margin:40px auto;
+}
+.schedule-steps{
+  span.step-index{
+    font-size:16px;
+    text-transform: uppercase;
+    letter-spacing:2;
+    font-weight: 600;
+    color:lighten($medium, 10%);
+    display:block;
+    margin-bottom:10px;
+  }
+  h5{
+    font-size:24px;
+    font-weight:400;
+    margin-bottom:20px;
+  }
+  >li{
+    padding-top:20px;
+    margin-bottom:80px;
+    &:first-of-type{
+      margin-bottom:40px;
+    }
+    &.minimized{
+      margin-bottom:0;
+      h5{
+        color:$medium;
+        &:hover{
+          cursor:pointer;
+          color:$dark;
+        }
+      }
+      >*:not(.title){
+        display:none;
+      }
+    }
+  }
+}
+.schedule-options{
+  padding-bottom:40px;
+  button{
+    background:transparent;
+    width:220px;
+    padding:0;
+    color:$dark;
+    text-align:left;
+    margin-right:40px;
+    margin-bottom:10px;
+    &:last-of-type{
+      margin-right:0;
+    }
+    .icon-wrap{
+      width:100%;
+      height:160px;
+      background-color:white;
+      border:2px solid $blue;
+      border-radius:3px;
+      position:relative;
+      margin-bottom:10px;
+      img{
+        width:150px;
+        height:100px;
+        position:absolute;
+        left:50%;
+        top:50%;
+        margin-top:-50px;
+        margin-left:-75px;
+      }
+    }
+    .active-checkbox, .inactive-checkbox{
+      position:relative;
+      bottom:1px;
+    }
+    .active-checkbox{
+      display:none;
+    }
+    .inactive-checkbox{
+      display:inline-block;
+    }
+    &.active{
+      .active-checkbox{
+        display:inline-block;
+      }
+      .inactive-checkbox{
+        display:none;
+      }
+    }
+  }
+  .clarification{
+    input, textarea{
+      width:100%;
+      padding:8px 10px;
+      font-size:18px;
+      margin-top:8px;
+    }
+  }
+}
+
+.schedule-agents{
+  padding-top:40px;
+  margin-top:-5px;
+  border-top:2px solid $light;
+  li{
+    height:90px;
+    position:relative;
+    margin-bottom:20px;
+  }
+  .agent{
+    position:absolute;
+    left:0;
+    height:90px;
+    width:400px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.5);
+    .close-button{
+      float:right;
+      color:$medium;
+      background-color:transparent;
+      font-weight:200;
+      padding:12px;
+    }
+    .profile-picture{
+      width:90px;
+      height:90px;
+      float:left;
+      background-size:cover;
+      position:50% 50%;
+    }
+    .agent-details{
+      padding:16px 20px;
+      float:left;
+      h5{
+        margin-bottom:7px;
+        font-size:18px
+      }
+      .company, .designation{
+        display:block;
+        color:$medium;
+        margin-bottom:2px;
+        font-size:14px;
+      }
+    }
+  }
+  form{
+    position:absolute;
+    right:0;
+    left:400px;
+    padding:7px 20px 0 40px;
+    .form-param{
+      display:block;
+    }
+    label{
+      font-weight:600;
+      font-size:14px;
+      width:75px;
+      display:inline-block;
+    }
+    select{
+      width:220px;
+    }
+  }
+}
+
+.review-section{
+  font-size:15px;
+  &:last-of-type{
+    border-bottom:2px solid $light;
+  }
+  margin-bottom:20px;
+  header{
+    color:$medium;
+    font-style:italic;
+    border-bottom:2px solid $light;
+    padding:5px 0;
+    font-size:14px;
+  }
+  .review-service{
+    display:inline-block;
+    width:215px;
+    vertical-align: top;
+    line-height:20px;
+    padding:10px 0;
+    span{
+      display:block;
+      font-size:15px;
+      margin-bottom:1px;
+    }
+    .heading{
+      font-weight:600;
+    }
+    .detail{
+      color:$medium;
+    }
+  }
+  .review-date{
+    padding:10px 0;
+    .coords{
+      display:block;
+      margin-bottom:15px;
+      strong{
+        font-weight:600;
+      }
+    }
+    .meetings li{
+      margin-bottom:8px;
+      .agent-name{
+        width:200px;
+        display:inline-block;
+      }
+      .time{
+        font-weight:600;
+      }
+    }
+  }
+}
+
+.confirm-button, .continue-button{
+  font-size:16px;
+  padding:10px 17px 11px 15px;
+}
+
+@media screen and (max-width:1100px){
+  .schedule-agents .form-param{
+    margin-right:0;
+  }
+}
+
+@media screen and (max-width:860px){
+  .schedule-options{
+    button{
+      width:100%;
+      &+button{
+        margin-top:20px;
+      }
+    }
+  }
+  .schedule-agents{
+    li{
+      height:auto;
+      margin-bottom:40px;
+    }
+    .agent{
+      position:static;
+      width:100%;
+    }
+    form{
+      position:static;
+      padding-left:0;
+      .form-param{
+        display:inline-block;
+        margin-right:20px;
+      }
+    }
+  }
+}

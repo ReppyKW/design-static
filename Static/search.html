@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600" rel="stylesheet">
+<link rel="stylesheet" href="css/screen.css">
+<script src="js/jquery-3.0.0.js"></script>
+<script src="js/main.js"></script>  </head>
+  <body>
+    <header>
+  <div class="top">
+    <div class="logo">
+  <a href="index.html">
+    <img src="img/logo.png" />
+    <h1>Reppy</h1>
+    <h2>Find the perfect agent</h2>
+  </a>
+</div>  </div>
+  <div class="menu">
+    <a href="search.html"><img src="img/book-dark.svg" />Find Agents</a>
+    <a href="favourites.html"><img src="img/favourite-dark.svg" />Favourites</a>
+  </div>
+  <div class="kickback-ad">
+    <h2>Get $1000 back when you buy and sell with Reppy.</h2>
+    <p><a href="about-kickback.html">Learn more</a>.</p>
+  </div>
+</header>    <section>
+      <h4>Browse Agents</h4>
+      <p>Find real estate professionals that have something in common with you.</p>
+      <ul class="search-option-categories">
+        <li class="category root">
+          <button class="search-option active">Sports</button>
+          <button class="search-option"       >Dining</button>
+          <button class="search-option active">Travel</button>
+        </li>
+        <li class="category">
+          <span>sports:</span>
+          <button class="search-option">Baseball</button>
+          <button class="search-option">Basketball</button>
+        </li>
+        <li class="category">
+          <span>travel:</span>
+          <button class="search-option">Europe</button>
+          <button class="search-option">Tropical</button>
+        </li>
+      </ul>
+    </section>
+
+    <section class="more-options">
+      <h5><img src="img/down-small.svg" />More Options</h5>
+      <form>
+        <div class="form-section">
+          <div class="form-param">
+            <label for="search-name-input">Name</label>
+            <input id="search-name-input" type="text" placeholder="Look for someone specific" />
+          </div>
+        </div>
+
+        <div class="form-section">
+          <div class="form-param">
+            <label for="search-language-input">Language</label>
+            <select id="search-language-input">
+              <option val="fr">French</option>
+              <option val="es">Spanish</option>
+              <option val="de">German</option>
+            </select>
+          </div>
+
+          <div class="form-param">
+            <label for="search-location-input">Location</label>
+            <select id="search-location-input">
+              <option val="waterloo">Waterloo</option>
+              <option val="kitchener">Kitchener</option>
+              <option val="toronto">Toronto</option>
+            </select>
+          </div>
+
+          <div class="form-param">
+            <label for="search-specialty-input">Specialty</label>
+            <select id="search-specialty-input">
+              <option val="foreclosure">Foreclosure</option>
+              <option val="assisted-living">Assisted Living</option>
+            </select>
+          </div>
+
+          <div class="form-param">
+            <label for="search-experience-input">Experience</label>
+            <select id="search-experience-input">
+              <option val="5+">5+ years</option>
+              <option val="10+">10+ years</option>
+              <option val="15+">15+ years</option>
+              <option val="20+">20+ years</option>
+            </select>
+          </div>
+        </div>
+      </form>
+    </section>
+
+    <section class="search-results">
+      <ul>
+        <li class="search-result">
+          <a href="profile.html" class="search-result-hero" style="background-image:url(img/dynamic/agent-1/profile-pic.jpg);">
+            <button>&#10006;</button>
+            <div class="desaturated" style="background-image:url(img/dynamic/agent-1/profile-pic.jpg);"></div>
+          </a>
+          <div class="user-details">
+            <a href="profile.html">
+              <h5>Carla Pilkington</h5>
+              <span class="company">Royal Lepage</span>
+              <span class="designation">Broker of Record</span>
+            </a>
+            <footer>
+              <button class="minor">
+  <img src="img/favourite.svg" />
+  <span>Favourite</span>
+</button>            </footer>
+          </div>
+        </li>
+      </ul>
+    </section>
+    <div class="favourites">
+  <div class="favourited-agents">
+    <a href="favourites.html"><img src="img/favourite-gold.svg" /> 3 Agents</a>
+    <img class="agent-thumbnail" data-agent="1" src="img/dynamic/agent-1/profile-pic.jpg" />
+    <img class="agent-thumbnail" data-agent="2" src="img/dynamic/agent-2.jpg" />
+    <img class="agent-thumbnail" data-agent="3" src="img/dynamic/agent-3.jpg" />
+  </div>
+  <div class="actions">
+    <a href="schedule.html">
+      <button class="major">
+        <img src="img/book.svg" />
+        <span>Book Appointments</span>
+      </button>
+    </a>
+  </div>
+</div>    <footer>
+  <img src="img/logo.svg" />
+  <a href="privacy-policy.html">Privacy Policy</a>
+  <a href="terms-conditions.html">Terms &amp; Conditions</a>
+  <a href="contact-us.html">Contact Us</a>
+  <span class="copyright">Copyright &copy; Reppy 2016</span>
+</footer>  </body>
+</html>

@@ -1,0 +1,36 @@
+.user-details{
+  display:inline-block;
+  padding:18px 20px;
+  margin-top:-40px;
+  background-color:white;
+  border-radius:3px;
+  font-size:14px;
+  box-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+  >a, >a:link, >a:visited{
+    text-decoration: none;
+    color:$dark;
+    >h5{
+      color:$dark;
+      &:hover{
+        text-decoration: underline;
+      }
+    }
+  }
+  h5{
+    margin-bottom:7px;
+  }
+  .company, .designation{
+    display:block;
+    color:$medium;
+    margin-bottom:2px;
+    font-size:14px;
+  }
+  footer{
+    margin-top:8px;
+    .view-profile{
+      float:right;
+      margin-top:9px;
+      margin-right:5px;
+    }
+  }
+}

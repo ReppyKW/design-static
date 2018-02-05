@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- @import "/components/head.kit" -->
+  </head>
+  <body>
+    <!-- @import "/components/header.kit" -->
+    <section class="schedule">
+      <h4>Schedule your Meetings</h4>
+      <ol class="schedule-steps">
+        <li data-index="1">
+          <div class="title">
+            <span class="step-index">Step 1</span>
+            <h5>How can we help?</h5>
+          </div>
+          <div class="schedule-options">
+
+            <button class="active">
+              <div class="icon-wrap">
+                <img src="img/sell-home.svg" />
+              </div>
+              <img src="img/checkbox-checked.svg"   class="active-checkbox" />
+              <img src="img/checkbox-unchecked.svg" class="inactive-checkbox" />
+              I have a property to sell
+              <div class="clarification">
+                <textarea placeholder="Enter your address"></textarea>
+              </div>
+            </button>
+
+            <button>
+              <div class="icon-wrap">
+                <img src="img/search-home.svg" />
+              </div>
+              <img src="img/checkbox-checked.svg"   class="active-checkbox" />
+              <img src="img/checkbox-unchecked.svg" class="inactive-checkbox" />
+              I'm searching for a property
+            </button>
+
+          </div>
+          <div class="schedule-continue">
+            <button class="major continue-button">Continue</button>
+          </div>
+        </li>
+        <li data-index="2">
+          <div class="title">
+            <span class="step-index">Step 2</span>
+            <h5>Where &amp; When</h5>
+          </div>
+          <div class="schedule-options">
+
+            <button>
+              <div class="icon-wrap">
+                <img src="img/30-min.svg" />
+              </div>
+              <img src="img/radio-checked.svg"   class="active-checkbox" />
+              <img src="img/radio-unchecked.svg" class="inactive-checkbox" />
+              30-minute meetings
+            </button>
+
+            <button class="active">
+              <div class="icon-wrap">
+                <img src="img/45-min.svg" />
+              </div>
+              <img src="img/radio-checked.svg"   class="active-checkbox" />
+              <img src="img/radio-unchecked.svg" class="inactive-checkbox" />
+              45-minute meetings
+            </button>
+
+            <button>
+              <div class="icon-wrap">
+                <img src="img/60-min.svg" />
+              </div>
+              <img src="img/radio-checked.svg"   class="active-checkbox" />
+              <img src="img/radio-unchecked.svg" class="inactive-checkbox" />
+              60-minute meetings
+            </button>
+
+          </div>
+          <ul class="schedule-agents">
+            <li>
+              <div class="agent">
+                <div class="profile-picture" style="background-image:url(img/dynamic/agent-1/profile-pic.jpg)"></div>
+                <div class="agent-details">
+                  <h5>Carla Pilkington</h5>
+                  <span class="company">Remax</span>
+                  <span class="designation">Sales Associate</span>
+                </div>
+                <button class="close-button">&#10006;</button>
+              </div>
+              <form>
+                <div class="form-param">
+                  <label for="schedule-date-input-1">Date</label>
+                  <select id="schedule-date-input-1">
+                    <option val="1-12-16">Wednesday, December 1st 2016</option>
+                    <option val="2-12-16">Thursday, December 2nd 2016</option>
+                    <option val="3-12-16">Friday, December 3rd 2016</option>
+                  </select>
+                </div>
+                <div class="form-param">
+                  <label for="schedule-time-input-1">Time</label>
+                  <select id="schedule-time-input-1">
+                    <option val="12-45-1-15">12:45 PM - 1:15 PM</option>
+                    <option val="1-1-30"    >1:00 PM - 1:30 PM</option>
+                    <option val="1-15-1-45" >1:15 PM - 1:45 PM</option>
+                  </select>
+                </div>
+                <div class="form-param">
+                  <label for="schedule-location-input-1">Location</label>
+                  <select id="schedule-location-input-1">
+                    <option val="new">New Location</option>
+                  </select>
+                </div>
+              </form>
+            </li>
+            <li>
+              <div class="agent">
+                <div class="profile-picture" style="background-image:url(img/dynamic/agent-2.jpg)"></div>
+                <div class="agent-details">
+                  <h5>Andreas Kouliakoudakis</h5>
+                  <span class="company">Remax</span>
+                  <span class="designation">Sales Associate</span>
+                </div>
+                <button class="close-button">&#10006;</button>
+              </div>
+              <form>
+                <div class="form-param">
+                  <label for="schedule-date-input-2">Date</label>
+                  <select id="schedule-date-input-2">
+                    <option val="1-12-16">Wednesday, December 1st 2016</option>
+                    <option val="2-12-16">Thursday, December 2nd 2016</option>
+                    <option val="3-12-16">Friday, December 3rd 2016</option>
+                  </select>
+                </div>
+                <div class="form-param">
+                  <label for="schedule-time-input-2">Time</label>
+                  <select id="schedule-time-input-2">
+                    <option val="12-45-1-15">12:45 PM - 1:15 PM</option>
+                    <option val="1-1-30"    >1:00 PM - 1:30 PM</option>
+                    <option val="1-15-1-45" >1:15 PM - 1:45 PM</option>
+                  </select>
+                </div>
+                <div class="form-param">
+                  <label for="schedule-location-input-2">Location</label>
+                  <select id="schedule-location-input-2">
+                    <option val="new">New Location</option>
+                  </select>
+                </div>
+              </form>
+            </li>
+            <li>
+              <div class="agent">
+                <div class="profile-picture" style="background-image:url(img/dynamic/agent-3.jpg)"></div>
+                <div class="agent-details">
+                  <h5>Donald Duxon</h5>
+                  <span class="company">Remax</span>
+                  <span class="designation">Sales Associate</span>
+                </div>
+                <button class="close-button">&#10006;</button>
+              </div>
+              <form>
+                <div class="form-param">
+                  <label for="schedule-date-input-3">Date</label>
+                  <select id="schedule-date-input-3">
+                    <option val="1-12-16">Wednesday, December 1st 2016</option>
+                    <option val="2-12-16">Thursday, December 2nd 2016</option>
+                    <option val="3-12-16">Friday, December 3rd 2016</option>
+                  </select>
+                </div>
+                <div class="form-param">
+                  <label for="schedule-time-input-3">Time</label>
+                  <select id="schedule-time-input-3">
+                    <option val="12-45-1-15">12:45 PM - 1:15 PM</option>
+                    <option val="1-1-30"    >1:00 PM - 1:30 PM</option>
+                    <option val="1-15-1-45" >1:15 PM - 1:45 PM</option>
+                  </select>
+                </div>
+                <div class="form-param">
+                  <label for="schedule-location-input-3">Location</label>
+                  <select id="schedule-location-input-3">
+                    <option val="new">New Location</option>
+                  </select>
+                </div>
+              </form>
+            </li>
+          </ul>
+          <div class="schedule-continue">
+            <button class="major continue-button">Continue</button>
+          </div>
+        </li>
+        <li data-index="3">
+          <div class="title">
+            <span class="step-index">Step 3</span>
+            <h5>Review &amp; Confirm</h5>
+          </div>
+          <div class="review-section">
+            <header><span class="title">Services</span></header>
+            <div class="review-service">
+              <span class="heading">&#10004; Selling a Property</span>
+              <span class="detail">123 Archibald Lane</span>
+              <span class="detail">Unit 7</span>
+            </div>
+            <div class="review-service">
+              <span class="heading">&#10004; Finding a Property to Buy</span>
+            </div>
+          </div>
+          <div class="review-section">
+            <header><span class="title">Meetings</span></header>
+            <div class="review-date">
+              <span class="coords">
+                <strong>Wednesday, December 31st,</strong> at <strong>123 Archibald Lane, Unit 7</strong></span>
+              <ul class="meetings">
+                <li>
+                  <span class="agent-name">Carla Pilkington</span>
+                  <span class="time">12:45PM - 1:15PM</span>
+                </li>
+                <li>
+                  <span class="agent-name">Andreas Kouliakoudakis</span>
+                  <span class="time">12:45PM - 1:15PM</span>
+                </li>
+                <li>
+                  <span class="agent-name">Donald Duxon</span>
+                  <span class="time">12:45PM - 1:15PM</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <button class="major confirm-button">
+            <img src="img/book.svg" />
+            <span>Confirm &amp; Book</span>
+          </button>
+        </li>
+      </ol>
+    </section>
+    <!-- @import "/components/footer.kit" -->
+  </body>
+</html>

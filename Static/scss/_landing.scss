@@ -1,0 +1,125 @@
+.landing section{
+  padding-top:60px;
+  padding-bottom:60px;
+}
+
+.hero{
+  text-align:center;
+  height:90%;
+  position:relative;
+  background-image:url("../img/professionals.jpg");
+  background-size:cover;
+  h3{
+    position:absolute;
+    text-align:center;
+    left:0;
+    right:0;
+    top:33%;
+    font-size:55px;
+    line-height:65px;
+    font-weight:200;
+    padding:0 80px;
+    color:white;
+    text-shadow:0 0 3px rgba($dark,1);
+    //color:white;
+    //text-shadow:0 0 15px rgba(0,0,0,0.8);
+  }
+  button{
+    position:absolute;
+    bottom:33%;
+    left:50%;
+    margin-left:-120px;
+    width:240px;
+    font-size:24px;
+    padding:15px 18px 13px 18px
+  }
+}
+
+@media screen and ( max-width:1000px ){
+  .hero h3{
+    font-size:40px;
+    line-height:50px;
+  }
+}
+
+@media screen and ( max-width:730px ){
+  .hero h3{
+    font-size:24px;
+    line-height:32px;
+  }
+}
+
+@media screen and ( max-width:500px ){
+  .hero h3{
+    top:25%;
+  }
+  .hero button{
+    bottom:25%;
+  }
+}
+
+.landing-steps li{
+  vertical-align: top;
+  text-align:center;
+  display:inline-block;
+  width:33%;
+}
+
+.landing-steps .img-wrap{
+  display:inline-block;
+  width:166px;
+  height:166px;
+  border-radius:83px;
+  background-color:$blue;
+  padding:46px;
+  margin-bottom:14px;
+  img{
+    width:74px;
+    height:74px;
+  }   
+}
+
+@media screen and ( max-width:810px ){
+  .landing-steps li{
+    width:100%;
+    margin-bottom:30px;
+    &:last-of-type{
+      margin-bottom:0;
+    }
+  }
+}
+
+.landing-quotes{
+  background-color:$light;
+}
+
+.landing-quotes blockquote{
+  p{
+    color:$dark;
+    font-weight:200;
+    margin-bottom:10px;
+    font-size:30px;
+    line-height:40px;
+    &:before{
+      content:"“";
+    }
+    &:after{
+      content:"”";
+    }
+  }
+  footer{
+    font-style:italic;
+    margin-bottom:30px;
+    font-weight:600;
+  }
+  &:last-of-type footer{
+    margin-bottom:0;
+  }
+}
+
+@media screen and ( max-width:700px ){
+  .landing-quotes blockquote p{
+    font-size:20px;
+    line-height:25px;
+  }
+}

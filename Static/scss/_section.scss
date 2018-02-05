@@ -1,0 +1,9 @@
+body>section{
+  padding:40px $sidePadding;
+  border-bottom: 2px solid $light;
+}
+@media screen and (max-width:920px){
+  body>section{
+    padding:40px $smallSidePadding;
+  }
+}

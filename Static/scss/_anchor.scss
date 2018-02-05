@@ -1,0 +1,13 @@
+section{
+  a, a:link, a:visited{
+    color:$blue;
+    text-decoration:underline;
+    &>*{
+      text-decoration: none;
+      color:white;
+    }
+    &:hover{
+      cursor:pointer;
+    }
+  }
+}
